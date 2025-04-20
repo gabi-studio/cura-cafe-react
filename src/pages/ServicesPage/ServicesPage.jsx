@@ -3,6 +3,11 @@ import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import { Link } from 'react-router-dom';
 import './servicespage.css';
 
+// services page component that fetches services and displays them
+// It uses the ServiceCard component to display each service
+
+
+
 const ServicesPage = () => {
   const [services, setServices] = useState([]);
 

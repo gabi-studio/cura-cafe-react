@@ -5,6 +5,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './menupage.css';
 
+// menu page can show menu items for the week
+// or the loading message if the menu items are not yet loaded
+// it uses the MenuItemCard component to display each menu item
+// it uses the react-slick library to create a carousel of menu items
+
 const MenuPage = () => {
   const [menuItems, setMenuItems] = useState([]);
   const [loading, setLoading] = useState(true); 
