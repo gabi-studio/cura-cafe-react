@@ -1,0 +1,13 @@
+
+.home-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .home-page {
+      grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,48 @@
+
+.header {
+    height: 100px; 
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+  }
+
+  .weekly-menu-link {
+    color:fff;
+  }
+
+  .weekly-menu-link:hover {
+    color: #fff;
+    background-color: #304a00;
+  }
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .nav-list li a {
+    text-decoration: none;
+    color: #304a00;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+
+  .nav-list li a:hover {
+    color: #74012f;
+  }
+
+  
+  

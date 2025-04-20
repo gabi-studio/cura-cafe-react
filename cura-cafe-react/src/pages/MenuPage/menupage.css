@@ -1,0 +1,59 @@
+.menu-page {
+    padding: 2rem;
+  }
+  
+  .weekly-specials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .day-section {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: #f9f9f9;
+    color:#364501;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Playfair', serif;
+    font-style: italic;
+  }
+  .day-section h3 {
+    margin-top: 0;
+  }
+  
+  .day-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .day-section li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* slick navigation arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #364501;
+  font-size: 30px;
+}
+
+/*carousel container */
+.slick-slider {
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+/* dots */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #364501;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+}

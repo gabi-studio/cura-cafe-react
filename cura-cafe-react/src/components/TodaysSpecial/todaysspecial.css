@@ -1,0 +1,28 @@
+
+.todays-special {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .special-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .weekly-menu-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #364501;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .weekly-menu-link:hover {
+    background-color: #2c3e00;
+  }
+  

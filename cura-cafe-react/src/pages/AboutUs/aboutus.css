@@ -1,0 +1,21 @@
+.about-us-page {
+
+    padding: 3rem;
+}
+
+.about-us-page p {
+    
+    margin-top: 1.25em;
+}
+
+.weekly-menu-link, .contact-us-button, .services-link {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0.5em auto;
+    padding: 0.5rem 1rem;
+    background-color: #364501;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
