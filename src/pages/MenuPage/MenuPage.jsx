@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import MenuItemCard from '../../components/MenuItemCard/MenuItemCard';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './MenuPage.css';
+import './menupage.css';
 
 const MenuPage = () => {
   const [menuItems, setMenuItems] = useState([]);

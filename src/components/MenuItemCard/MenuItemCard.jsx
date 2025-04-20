@@ -1,5 +1,5 @@
 import React from 'react';
-import './MenuItemCard.css';
+import './menuitemcard.css';
 
 // individual menu card component to use on menu page and in the home page for the daily special
 // This component represents a menu item card that displays information about a specific menu item

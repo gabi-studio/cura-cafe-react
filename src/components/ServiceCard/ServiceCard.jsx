@@ -1,5 +1,5 @@
 import React from 'react';
-import './ServiceCard.css';
+import './servicecard.css';
 
 // This component represents a service card that displays information about a specific service offered 
 

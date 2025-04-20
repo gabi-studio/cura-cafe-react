@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import MenuItemCard from '../MenuItemCard/MenuItemCard';
-import './TodaysSpecial.css';
+import './todaysspecial.css';
 
 // This component fetches today's specials based on current date from the API and displays them
 // It uses the MenuItemCard component to display each special item
